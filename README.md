@@ -58,11 +58,11 @@ No cmd, digite:
 
 $ pip install virtualenv
 
-$ cd PATHTO
+$ cd (caminho-para-diretório-onde-será-criado-ambiente-virtual)
     
-$ virtualenv <nomedoambientevirtual>
+$ python -m virtualenv (nomedoambientevirtual)
     
-$ path to\<nomedoambientevirtual>\Scripts\activate
+$ (caminho)\(nomedoambientevirtual)\Scripts\activate
 
 (nomedoambientevirtual) $ python --version
 
@@ -123,7 +123,7 @@ Digite no terminal de sua IDE:
 
 $ source nomedoambientevirtual/bin/activate
     
-$ cd PATHTO app.py
+$ cd (caminho-para-arquivo-app.py)
     
-$ python3 app.py
+$ python app.py
 
