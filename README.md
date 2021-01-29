@@ -62,7 +62,7 @@ $ cd (caminho-para-diretório-onde-será-criado-ambiente-virtual)
     
 $ python -m virtualenv (nomedoambientevirtual)
     
-$ (caminho)\(nomedoambientevirtual)\Scripts\activate
+$ (caminho)\nomedoambientevirtual\Scripts\activate
 
 (nomedoambientevirtual) $ python --version
 
