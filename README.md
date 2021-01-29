@@ -3,9 +3,10 @@ API Pokemon consumida em Python / Flask
 
 Requisitos:
 
-1. INSTALE O PYTHON EM SUA MÁQUINA
 
-Windows:
+# 1. INSTALE O PYTHON EM SUA MÁQUINA
+
+# Windows: 
 
 https://www.python.org/downloads/
 
@@ -14,62 +15,79 @@ Selecione "Add Python 3.X to PATH".
 Digite no cmd:
 
 $ python --version
+
 $ pip --version
 
-Linux:
+# Linux:
 
 Digite no terminal:
 
 $ sudo apt-get install python3-pip
+
 $ sudo apt-get update
 
-Mac OS:
+# Mac OS:
 
 Digite no terminal:
 
 $ xcode-select --install
+
 $ sudo easy_install pip
+
 $ sudo pip install --upgrade pip
+
 $ ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"
+
 $ brew install python3
 
 
-2. INSTALE AS BIBLIOTECAS
+
+# 2. INSTALE AS BIBLIOTECAS
 
 $ pip install -r requirements.txt
 
 
-3. CRIE UM AMBIENTE VIRTUAL
 
-Windows:
+# 3. CRIE UM AMBIENTE VIRTUAL
+
+# Windows:
 
 No cmd, digite:
 
 $ pip install virtualenv
+
 $ cd <path to>
+    
 $ virtualenv <nomedoambientevirtual>
+    
 $ path to\<nomedoambientevirtual>\Scripts\activate
+
 (nomedoambientevirtual) $ python --version
 
-Linux/Mac OS:
+# Linux/Mac OS:
 
 No terminal, digite:
 
 $ sudo pip install virtualenv
+
 $ python3 -m virtualenv <nomedoambientevirtual>
+    
 $ cd <nomedoambientevirtual>
+    
 $ source bin/activate
+
 (nomedoambientevirtual) $ python --version
 
 
-4. CLONE O REPOSITÓRIO:
+
+# 4. CLONE O REPOSITÓRIO:
 
 $ git clone <https://github.com/angelicadosreis/API-Pokemon.git>
 
 
 
-5. ABRA O ARQUIVO APP.PY EM SUA IDE
 
+# 5. ABRA O ARQUIVO APP.PY EM SUA IDE
 
 
 Caso esteja utilizando VS Code, é necessário realizar os seguintes passos:
@@ -95,11 +113,15 @@ Depois:
     "python.pythonPath": "<path to>/<nomedoambientevirtual>/bin/python"
 }
 
-6. EXECUTE
+
+
+# 6. EXECUTE
 
 Digite no terminal de sua IDE:
 
 $ source <nomedoambientevirtual>/bin/activate
+    
 $ cd <path to app.py>
+    
 $ python3 app.py
 
