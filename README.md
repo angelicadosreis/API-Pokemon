@@ -1,12 +1,14 @@
 # API-Pokemon
 API Pokemon consumida em Python / Flask
 
-Requisitos:
+Procedimentos para executar:
 
 
 # 1. INSTALE O PYTHON EM SUA MÁQUINA
 
 # Windows: 
+
+Efetue download do Python e execute a instalação:
 
 https://www.python.org/downloads/
 
@@ -56,7 +58,7 @@ No cmd, digite:
 
 $ pip install virtualenv
 
-$ cd <path to>
+$ cd PATHTO
     
 $ virtualenv <nomedoambientevirtual>
     
@@ -70,9 +72,9 @@ No terminal, digite:
 
 $ sudo pip install virtualenv
 
-$ python3 -m virtualenv <nomedoambientevirtual>
+$ python3 -m virtualenv nomedoambientevirtual
     
-$ cd <nomedoambientevirtual>
+$ cd nomedoambientevirtual
     
 $ source bin/activate
 
@@ -96,7 +98,7 @@ View > Command Pallete > Python: Select interpreter
 
 Selecione o interpretador: 
 python 3.8.5 64-bit 
-<nomedoambientevirtual>/bin/python
+nomedoambientevirtual/bin/python
 
 Se o interpretador acima não estiver disponível, acessar o arquivo {}settings.json vscode e altere o PATH indicado para Python:
 
@@ -119,9 +121,9 @@ Depois:
 
 Digite no terminal de sua IDE:
 
-$ source <nomedoambientevirtual>/bin/activate
+$ source nomedoambientevirtual/bin/activate
     
-$ cd <path to app.py>
+$ cd PATHTO app.py
     
 $ python3 app.py
 
