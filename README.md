@@ -110,7 +110,7 @@ Antes:
 Depois:
 {
     "terminal.explorerKind": "external",
-    "python.pythonPath": "<path to>/<nomedoambientevirtual>/bin/python"
+    "python.pythonPath": "path to/nomedoambientevirtual/bin/python"
 }
 
 
