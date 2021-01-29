@@ -92,7 +92,7 @@ $ git clone <https://github.com/angelicadosreis/API-Pokemon.git>
 # 5. ABRA O ARQUIVO APP.PY EM SUA IDE
 
 
-Caso esteja utilizando VS Code, é necessário realizar os seguintes passos:
+Caso esteja utilizando VS Code, pode ser necessário realizar os seguintes passos:
 
 View > Command Pallete > Python: Select interpreter
 
