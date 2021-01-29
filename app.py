@@ -3,7 +3,7 @@ import json
 import requests
 
 
-app = Flask(__name__)
+app = Flask(__name__, template_folder='.')
 
 @app.route('/')
 def display_gui():
