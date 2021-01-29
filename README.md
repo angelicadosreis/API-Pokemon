@@ -46,6 +46,8 @@ $ brew install python3
 
 # 2. INSTALE AS BIBLIOTECAS
 
+No cmd / terminal, digite:
+
 $ pip install -r requirements.txt
 
 
