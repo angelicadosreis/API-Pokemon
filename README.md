@@ -117,6 +117,8 @@ Depois:
 }
 
 
+![image](https://user-images.githubusercontent.com/52806659/106597480-3e6dfe00-6535-11eb-82e9-b718bfe50ad0.png)
+
 # 6. EXECUTE
 
 Digite no terminal de sua IDE:
