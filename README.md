@@ -90,7 +90,6 @@ No cmd / terminal, digite:
 
 
 
-
 # 5. ABRA O ARQUIVO APP.PY EM SUA IDE
 
 
@@ -116,7 +115,6 @@ Depois:
     "terminal.explorerKind": "external",
     "python.pythonPath": "path to/nomedoambientevirtual/bin/python"
 }
-
 
 
 # 6. EXECUTE
