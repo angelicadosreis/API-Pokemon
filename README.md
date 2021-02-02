@@ -16,77 +16,77 @@ Selecione "Add Python 3.X to PATH".
 
 Digite no cmd:
 
-$ python --version
+`$ python --version`
 
-$ pip --version
+`$ pip --version`
 
 # Linux:
 
 Digite no terminal:
 
-$ sudo apt-get install python3-pip
+`$ sudo apt-get install python3-pip`
 
-$ sudo apt-get update
+`$ sudo apt-get update`
 
 # Mac OS:
 
 Digite no terminal:
 
-$ xcode-select --install
+`$ xcode-select --install`
 
-$ sudo easy_install pip
+`$ sudo easy_install pip`
 
-$ sudo pip install --upgrade pip
+`$ sudo pip install --upgrade pip`
 
-$ ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"
+`$ ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"`
 
-$ brew install python3
-
-
-
-# 2. INSTALE AS BIBLIOTECAS
-
-No cmd / terminal, digite:
-
-$ pip install -r requirements.txt
+`$ brew install python3`
 
 
 
-# 3. CRIE UM AMBIENTE VIRTUAL
+# 2. CRIE UM AMBIENTE VIRTUAL
 
 # Windows:
 
 No cmd, digite:
 
-$ pip install virtualenv
+`$ pip install virtualenv`
 
-$ cd (caminho-para-diretório-onde-será-criado-ambiente-virtual)
+`$ cd (caminho-para-diretório-onde-será-criado-ambiente-virtual)`
     
-$ python -m virtualenv (nomedoambientevirtual)
+`$ python -m virtualenv (nomedoambientevirtual)`
     
-$ (caminho)\nomedoambientevirtual\Scripts\activate
+`$ (caminho)\nomedoambientevirtual\Scripts\activate`
 
-(nomedoambientevirtual) $ python --version
+`(nomedoambientevirtual) $ python --version`
 
 # Linux/Mac OS:
 
 No terminal, digite:
 
-$ sudo pip install virtualenv
+`$ sudo pip install virtualenv`
 
-$ python3 -m virtualenv nomedoambientevirtual
+`$ python3 -m virtualenv nomedoambientevirtual`
     
-$ cd nomedoambientevirtual
+`$ cd nomedoambientevirtual`
     
-$ source bin/activate
+`$ source bin/activate`
 
-(nomedoambientevirtual) $ python --version
+`(nomedoambientevirtual) $ python --version`
+
+
+
+# 3. INSTALE AS BIBLIOTECAS
+
+No cmd / terminal, digite:
+
+`$ pip install -r requirements.txt`
 
 
 
 # 4. CLONE O REPOSITÓRIO:
 
-$ git clone <https://github.com/angelicadosreis/API-Pokemon.git>
+`$ git clone <https://github.com/angelicadosreis/API-Pokemon.git>`
 
 
 
@@ -123,9 +123,9 @@ Depois:
 
 Digite no terminal de sua IDE:
 
-$ source nomedoambientevirtual/bin/activate
+`$ source nomedoambientevirtual/bin/activate`
     
-$ cd (caminho-para-arquivo-app.py)
+`$ cd (caminho-para-arquivo-app.py)`
     
-$ python app.py
+`$ python app.py`
 
